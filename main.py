@@ -77,7 +77,7 @@ async def timenews2(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f'{str1time}')
 #
 #
-app = ApplicationBuilder().token("5570847525:AAEsKs_m3aRGMQeJHYBw7iM2QkcCEZkLvMg").build()    #key api bot
+app = ApplicationBuilder().token("55xxxxxx25:AAEsKs_xxxxxxxxxxYBw7iM2QkcCEZkLvMg").build()    #key api bot your
 app.add_handler(CommandHandler("hello", hello))    #keyword call function
 app.add_handler(CommandHandler("command", command))
 #app.add_handler(CommandHandler("news", news))
